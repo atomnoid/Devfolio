@@ -12,7 +12,7 @@ export function Footer() {
         </div>
         <div className="flex items-center gap-1">
           {[
-            { icon: Github, href: "https://github.com" },
+            { icon: Github, href: "https://github.com/atomnoid" },
             { icon: Linkedin, href: "https://linkedin.com" },
             { icon: Mail, href: "#contact" },
           ].map(({ icon: Icon, href }, i) => (
