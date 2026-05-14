@@ -8,8 +8,8 @@ const projects = [
     description:
       "AI-powered customer feedback and review automation. Turns raw user voice into prioritized product signals.",
     stack: ["Next.js", "TypeScript", "Supabase", "OpenAI", "Tailwind"],
-    live: "#",
-    repo: "#",
+    live: "https://revuchat-ai.vercel.app/",
+    repo: "https://github.com/atomnoid/RevUchat-Ai",
     accent: "from-[oklch(0.65_0.22_270)] to-[oklch(0.7_0.18_200)]",
   },
   {
@@ -18,18 +18,18 @@ const projects = [
     description:
       "SEO-focused platform of utility and conversion tools — fast, accessible, and built to rank.",
     stack: ["Next.js", "TypeScript", "Tailwind", "Edge"],
-    live: "#",
-    repo: "#",
+    live: "https://quicklifytools.com/",
+    repo: "https://github.com/atomnoid/quicklifytools",
     accent: "from-[oklch(0.7_0.18_200)] to-[oklch(0.75_0.18_320)]",
   },
   {
-    name: "AI Dashboard",
-    tag: "Product · Analytics",
+    name: "Insights View",
+    tag: "Analytics · AI",
     description:
-      "A modern AI dashboard with analytics and productivity workflows for solo operators.",
+      "AI-powered insights and analytics platform for data-driven decision making.",
     stack: ["React", "TypeScript", "Charts", "Supabase"],
-    live: "#",
-    repo: "#",
+    live: "https://github.com/atomnoid/InsightsView-AI",
+    repo: "https://github.com/atomnoid/InsightsView-AI",
     accent: "from-[oklch(0.75_0.18_320)] to-[oklch(0.65_0.22_270)]",
   },
 ];
