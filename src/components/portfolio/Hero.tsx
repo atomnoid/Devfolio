@@ -3,8 +3,8 @@ import { ArrowUpRight, Download, Github, Linkedin, Mail, Sparkles } from "lucide
 import { Spotlight } from "./Spotlight";
 
 const stats = [
-  { value: "10+", label: "Projects Built" },
-  { value: "4+", label: "Years Experience" },
+  { value: "20+", label: "Projects Built" },
+  { value: "5+", label: "Years Experience" },
   { value: "4", label: "Years Teaching" },
   { value: "1+", label: "Years in Business" },
 ];
@@ -73,7 +73,7 @@ export function Hero() {
           </a>
           <div className="flex items-center gap-1 ml-1">
             {[
-              { icon: Github, href: "https://github.com" },
+              { icon: Github, href: "https://github.com/atomnoid" },
               { icon: Linkedin, href: "https://linkedin.com" },
               { icon: Mail, href: "#contact" },
             ].map(({ icon: Icon, href }, i) => (
