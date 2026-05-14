@@ -6,7 +6,7 @@ const items = [
     icon: Briefcase,
     role: "Founder",
     org: "WebPiece — Website Agency",
-    period: "2024 — 2025",
+    period: "2025 — 2026",
     bullets: [
       "Founded and ran a profitable website agency for ~1 year.",
       "Delivered websites and digital solutions across niches.",
@@ -16,10 +16,10 @@ const items = [
   {
     icon: GraduationCap,
     role: "Computer Science Instructor",
-    org: "Independent",
+    org: "Coaching Institute",
     period: "2022 — Present",
     bullets: [
-      "~4 years teaching programming and computer fundamentals.",
+      "~5 years teaching programming and computer fundamentals.",
       "Mentored students from first-line-of-code to building real projects.",
       "Sharpened the ability to make complex concepts simple and useful.",
     ],
