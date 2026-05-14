@@ -17,24 +17,24 @@ export function Contact() {
           <div className="h-full glass gradient-border rounded-2xl p-6 flex flex-col">
             <div className="space-y-4">
               <a
-                href="mailto:hello@example.com"
+                href="mailto:aayushsinhaworkwme@gmail.com"
                 className="group flex items-center gap-3 rounded-xl bg-white/[0.03] border border-white/10 p-4 hover:bg-white/[0.06] transition-colors"
               >
                 <Mail className="size-4 text-[oklch(0.78_0.14_270)]" />
                 <div>
                   <div className="text-xs text-muted-foreground">Email</div>
-                  <div className="text-sm">hello@example.com</div>
+                  <div className="text-sm">aayushsinhaworkwme@gmail.com</div>
                 </div>
                 <ArrowUpRight className="ml-auto size-4 opacity-60 group-hover:opacity-100 transition" />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/atomnoid"
                 className="group flex items-center gap-3 rounded-xl bg-white/[0.03] border border-white/10 p-4 hover:bg-white/[0.06] transition-colors"
               >
                 <Github className="size-4 text-[oklch(0.78_0.14_270)]" />
                 <div>
                   <div className="text-xs text-muted-foreground">GitHub</div>
-                  <div className="text-sm">@yourhandle</div>
+                  <div className="text-sm">@atomnoid</div>
                 </div>
                 <ArrowUpRight className="ml-auto size-4 opacity-60 group-hover:opacity-100 transition" />
               </a>
