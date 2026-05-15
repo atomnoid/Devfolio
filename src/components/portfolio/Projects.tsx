@@ -48,12 +48,17 @@ export function Projects() {
             <article className="group h-full relative glass gradient-border rounded-2xl overflow-hidden flex flex-col hover:translate-y-[-2px] transition-transform">
               {/* Mockup */}
               <div className="relative aspect-[16/10] overflow-hidden border-b border-white/10">
-                {(p.name === "RevUchat AI" || p.name === "QuicklifyTools") ? (
-                  <iframe
-                    src={p.live}
-                    className="w-full h-full border-0"
-                    title={p.name}
-                    style={{ pointerEvents: 'none' }}
+                {p.name === "RevUchat AI" ? (
+                  <img
+                    src="/images/projects/revuchat-banner.png"
+                    alt={p.name}
+                    className="w-full h-full object-cover"
+                  />
+                ) : p.name === "QuicklifyTools" ? (
+                  <img
+                    src="/images/projects/quicklifytools-banner.png"
+                    alt={p.name}
+                    className="w-full h-full object-cover"
                   />
                 ) : (
                   <>
