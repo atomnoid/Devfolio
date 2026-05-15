@@ -25,8 +25,7 @@ const projects = [
   {
     name: "Insights View",
     tag: "Analytics · AI",
-    description:
-      "AI-powered insights and analytics platform for data-driven decision making.",
+    description: "AI-powered insights and analytics platform for data-driven decision making.",
     stack: ["React", "TypeScript", "Charts", "Supabase"],
     live: "https://github.com/atomnoid/InsightsView-AI",
     repo: "https://github.com/atomnoid/InsightsView-AI",

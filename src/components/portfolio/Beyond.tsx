@@ -2,12 +2,36 @@ import { Brain, LineChart, Megaphone, Rocket, Sparkles, Users } from "lucide-rea
 import { FadeIn, Section } from "./Section";
 
 const cards = [
-  { icon: Rocket, title: "Indie hacker", body: "Ship small, learn fast, repeat. Distribution is part of the product." },
-  { icon: LineChart, title: "Business thinking", body: "Margins, funnels, pricing — code is just a means to a business outcome." },
-  { icon: Megaphone, title: "Marketing fluent", body: "From Google Ads to landing pages, I can build and grow at the same time." },
-  { icon: Sparkles, title: "Product experiments", body: "I prototype constantly. Most ideas die early, the survivors get serious." },
-  { icon: Users, title: "Teaching mindset", body: "Years of teaching = clearer thinking, cleaner docs, calmer team comms." },
-  { icon: Brain, title: "Founder mentality", body: "Owner, not employee. I take responsibility for the outcome, not just the task." },
+  {
+    icon: Rocket,
+    title: "Indie hacker",
+    body: "Ship small, learn fast, repeat. Distribution is part of the product.",
+  },
+  {
+    icon: LineChart,
+    title: "Business thinking",
+    body: "Margins, funnels, pricing — code is just a means to a business outcome.",
+  },
+  {
+    icon: Megaphone,
+    title: "Marketing fluent",
+    body: "From Google Ads to landing pages, I can build and grow at the same time.",
+  },
+  {
+    icon: Sparkles,
+    title: "Product experiments",
+    body: "I prototype constantly. Most ideas die early, the survivors get serious.",
+  },
+  {
+    icon: Users,
+    title: "Teaching mindset",
+    body: "Years of teaching = clearer thinking, cleaner docs, calmer team comms.",
+  },
+  {
+    icon: Brain,
+    title: "Founder mentality",
+    body: "Owner, not employee. I take responsibility for the outcome, not just the task.",
+  },
 ];
 
 export function Beyond() {
@@ -22,7 +46,8 @@ export function Beyond() {
         {cards.map((c, i) => (
           <FadeIn key={c.title} delay={i * 0.04}>
             <div className="group relative h-full glass gradient-border rounded-2xl p-6 overflow-hidden hover:bg-white/[0.04] transition-colors">
-              <div className="absolute -inset-px opacity-0 group-hover:opacity-100 transition-opacity rounded-2xl pointer-events-none"
+              <div
+                className="absolute -inset-px opacity-0 group-hover:opacity-100 transition-opacity rounded-2xl pointer-events-none"
                 style={{
                   background:
                     "radial-gradient(220px circle at 50% 0%, oklch(0.65 0.22 270 / 0.18), transparent 60%)",

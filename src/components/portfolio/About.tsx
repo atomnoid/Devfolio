@@ -32,9 +32,9 @@ export function About() {
       title={<>Builder by craft, founder by mindset.</>}
       description={
         <>
-          I'm a developer obsessed with SaaS, AI, automation, and the small
-          decisions that turn an idea into a product people actually pay for.
-          Self-taught, deeply curious, and always shipping.
+          I'm a developer obsessed with SaaS, AI, automation, and the small decisions that turn an
+          idea into a product people actually pay for. Self-taught, deeply curious, and always
+          shipping.
         </>
       }
     >
@@ -48,9 +48,7 @@ export function About() {
                 </div>
                 <div>
                   <h3 className="font-medium tracking-tight">{p.title}</h3>
-                  <p className="mt-1.5 text-sm text-muted-foreground leading-relaxed">
-                    {p.body}
-                  </p>
+                  <p className="mt-1.5 text-sm text-muted-foreground leading-relaxed">{p.body}</p>
                 </div>
               </div>
             </div>

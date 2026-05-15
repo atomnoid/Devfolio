@@ -45,7 +45,15 @@ const groups = [
   {
     icon: Megaphone,
     title: "Business & Growth",
-    items: ["Product Development", "Google Ads", "Marketing", "Sales", "Growth Thinking", "Lead Generation", "Business Strategy"],
+    items: [
+      "Product Development",
+      "Google Ads",
+      "Marketing",
+      "Sales",
+      "Growth Thinking",
+      "Lead Generation",
+      "Business Strategy",
+    ],
   },
   {
     icon: GraduationCap,

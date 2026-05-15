@@ -48,8 +48,8 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.15 }}
           className="mx-auto mt-6 max-w-2xl text-center text-base md:text-lg text-muted-foreground"
         >
-          I build digital products at the intersection of engineering, design, and growth —
-          shipping SaaS, AI tools, and websites with a founder's mindset.
+          I build digital products at the intersection of engineering, design, and growth — shipping
+          SaaS, AI tools, and websites with a founder's mindset.
         </motion.p>
 
         <motion.div

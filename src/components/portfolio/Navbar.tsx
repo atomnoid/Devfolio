@@ -51,7 +51,9 @@ export function Navbar() {
               D
               <span className="absolute inset-0 rounded-lg blur-md opacity-60 bg-[var(--gradient-accent)] -z-10" />
             </span>
-            <span className="font-semibold tracking-tight">dev<span className="text-gradient-accent">.folio</span></span>
+            <span className="font-semibold tracking-tight">
+              dev<span className="text-gradient-accent">.folio</span>
+            </span>
           </a>
 
           <ul className="hidden md:flex items-center gap-1 text-sm">

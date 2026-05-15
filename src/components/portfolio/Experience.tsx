@@ -48,9 +48,7 @@ export function Experience() {
             return (
               <li key={it.role} className="relative">
                 <div
-                  className={`md:grid md:grid-cols-2 md:gap-12 ${
-                    left ? "" : "md:[direction:rtl]"
-                  }`}
+                  className={`md:grid md:grid-cols-2 md:gap-12 ${left ? "" : "md:[direction:rtl]"}`}
                 >
                   <FadeIn>
                     <div className="md:[direction:ltr] relative pl-12 md:pl-0 md:pr-8">
