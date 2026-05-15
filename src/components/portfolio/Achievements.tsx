@@ -4,7 +4,7 @@ import { FadeIn, Section } from "./Section";
 const items = [
   { icon: Trophy, title: "National Olympiad", value: "AIR 355", body: "Top-tier rank in a competitive national olympiad." },
   { icon: Building2, title: "Profitable agency", value: "WebPiece", body: "Built and ran a website agency with real, paying clients." },
-  { icon: GraduationCap, title: "Teaching", value: "~5 yrs", body: "Mentored students through programming and CS fundamentals." },
+  { icon: GraduationCap, title: "Teaching", value: "~4 yrs", body: "Mentored students through programming and CS fundamentals." },
   { icon: Rocket, title: "SaaS journey", value: "shipping", body: "Building products in public — from idea to first users." },
 ];
 
