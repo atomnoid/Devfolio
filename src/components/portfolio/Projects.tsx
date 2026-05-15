@@ -16,7 +16,7 @@ const projects = [
     name: "QuicklifyTools",
     tag: "Tools · SEO",
     description:
-      "SEO-focused platform of utility and conversion tools — fast, accessible, and built to rank.",
+      "All-in-one platform with hundreds of users relying on it daily. Multiple powerful tools in one place — fast, accessible, and built to rank.",
     stack: ["Next.js", "TypeScript", "Tailwind", "Edge"],
     live: "https://quicklifytools.com/",
     repo: "https://github.com/atomnoid/quicklifytools",
@@ -48,25 +48,36 @@ export function Projects() {
             <article className="group h-full relative glass gradient-border rounded-2xl overflow-hidden flex flex-col hover:translate-y-[-2px] transition-transform">
               {/* Mockup */}
               <div className="relative aspect-[16/10] overflow-hidden border-b border-white/10">
-                <div className={`absolute inset-0 bg-gradient-to-br ${p.accent} opacity-70`} />
-                <div className="absolute inset-0 bg-grid opacity-30 mix-blend-overlay" />
-                <div className="absolute inset-x-6 bottom-6 top-12 rounded-xl glass-strong shadow-card p-3">
-                  <div className="flex gap-1.5">
-                    <span className="size-2 rounded-full bg-white/30" />
-                    <span className="size-2 rounded-full bg-white/30" />
-                    <span className="size-2 rounded-full bg-white/30" />
-                  </div>
-                  <div className="mt-3 h-2 w-2/3 rounded bg-white/20" />
-                  <div className="mt-2 h-2 w-1/2 rounded bg-white/15" />
-                  <div className="mt-4 grid grid-cols-3 gap-1.5">
-                    <div className="h-10 rounded bg-white/10" />
-                    <div className="h-10 rounded bg-white/15" />
-                    <div className="h-10 rounded bg-white/10" />
-                  </div>
-                </div>
-                <div className="absolute top-3 left-3 inline-flex items-center gap-1.5 rounded-md bg-black/30 backdrop-blur px-2 py-1 text-[10px] uppercase tracking-wider text-white/80">
-                  {p.tag}
-                </div>
+                {(p.name === "RevUchat AI" || p.name === "QuicklifyTools") ? (
+                  <iframe
+                    src={p.live}
+                    className="w-full h-full border-0"
+                    title={p.name}
+                    style={{ pointerEvents: 'none' }}
+                  />
+                ) : (
+                  <>
+                    <div className={`absolute inset-0 bg-gradient-to-br ${p.accent} opacity-70`} />
+                    <div className="absolute inset-0 bg-grid opacity-30 mix-blend-overlay" />
+                    <div className="absolute inset-x-6 bottom-6 top-12 rounded-xl glass-strong shadow-card p-3">
+                      <div className="flex gap-1.5">
+                        <span className="size-2 rounded-full bg-white/30" />
+                        <span className="size-2 rounded-full bg-white/30" />
+                        <span className="size-2 rounded-full bg-white/30" />
+                      </div>
+                      <div className="mt-3 h-2 w-2/3 rounded bg-white/20" />
+                      <div className="mt-2 h-2 w-1/2 rounded bg-white/15" />
+                      <div className="mt-4 grid grid-cols-3 gap-1.5">
+                        <div className="h-10 rounded bg-white/10" />
+                        <div className="h-10 rounded bg-white/15" />
+                        <div className="h-10 rounded bg-white/10" />
+                      </div>
+                    </div>
+                    <div className="absolute top-3 left-3 inline-flex items-center gap-1.5 rounded-md bg-black/30 backdrop-blur px-2 py-1 text-[10px] uppercase tracking-wider text-white/80">
+                      {p.tag}
+                    </div>
+                  </>
+                )}
               </div>
 
               <div className="p-5 flex-1 flex flex-col">
