@@ -15,7 +15,7 @@ const points = [
   {
     icon: BookOpen,
     title: "Teacher at heart",
-    body: "Nearly 5 years teaching CS taught me to break complex problems into clear, useful steps.",
+    body: "Nearly 4 years teaching CS taught me to break complex problems into clear, useful steps.",
   },
   {
     icon: Award,
