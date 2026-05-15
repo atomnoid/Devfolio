@@ -8,7 +8,7 @@ const items = [
     org: "WebPiece — Website Agency",
     period: "2025 — 2026",
     bullets: [
-      "Founded and ran a profitable website agency for ~1 year.",
+      "Founded and ran a profitable website agency for 1 year.",
       "Delivered websites and digital solutions across niches.",
       "Owned development, client comms, pricing, and operations end-to-end.",
     ],
