@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { ArrowUpRight, Download, Github, Linkedin, Mail, Sparkles, Twitter } from "lucide-react";
+import { ArrowUpRight, Download, Github, Linkedin, Mail, Sparkles } from "lucide-react";
+import XIcon from "./XIcon";
 import { Spotlight } from "./Spotlight";
 
 const stats = [
@@ -74,7 +75,7 @@ export function Hero() {
           <div className="flex items-center gap-1 ml-1">
             {[
               { icon: Github, href: "https://github.com/atomnoid" },
-              { icon: Twitter, href: "https://x.com/atomnoidd" },
+              { icon: XIcon, href: "https://x.com/atomnoidd" },
               { icon: Linkedin, href: "https://linkedin.com" },
               { icon: Mail, href: "#contact" },
             ].map(({ icon: Icon, href }, i) => (
