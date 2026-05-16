@@ -1,4 +1,5 @@
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
+import XIcon from "./XIcon";
 
 export function Footer() {
   return (
@@ -13,7 +14,7 @@ export function Footer() {
         <div className="flex items-center gap-1">
           {[
             { icon: Github, href: "https://github.com/atomnoid" },
-            { icon: Twitter, href: "https://x.com/atomnoidd" },
+            { icon: XIcon, href: "https://x.com/atomnoidd" },
             { icon: Linkedin, href: "https://linkedin.com" },
             { icon: Mail, href: "#contact" },
           ].map(({ icon: Icon, href }, i) => (
