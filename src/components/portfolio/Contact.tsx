@@ -1,4 +1,5 @@
-import { ArrowUpRight, Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { ArrowUpRight, Github, Linkedin, Mail } from "lucide-react";
+import XIcon from "./XIcon";
 import { FadeIn, Section } from "./Section";
 
 export function Contact() {
@@ -48,7 +49,7 @@ export function Contact() {
             className="group h-full glass gradient-border rounded-2xl p-6 flex items-center gap-4 hover:bg-white/[0.04] transition-colors"
           >
             <div className="grid place-items-center size-10 rounded-lg bg-white/[0.04] gradient-border shrink-0">
-              <Twitter className="size-5 text-[oklch(0.78_0.14_270)]" />
+              <XIcon className="size-5 text-[oklch(0.78_0.14_270)]" />
             </div>
             <div className="flex-1">
               <div className="text-xs text-muted-foreground">X</div>
