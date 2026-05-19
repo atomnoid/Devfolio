@@ -76,7 +76,7 @@ export function Hero() {
             {[
               { icon: Github, href: "https://github.com/atomnoid" },
               { icon: XIcon, href: "https://x.com/atomnoidd" },
-              { icon: Linkedin, href: "https://linkedin.com" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/asdev511/" },
               { icon: Mail, href: "#contact" },
             ].map(({ icon: Icon, href }, i) => (
               <a
