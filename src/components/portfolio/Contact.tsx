@@ -61,7 +61,7 @@ export function Contact() {
 
         <FadeIn delay={0.1}>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/asdev511/"
             className="group h-full glass gradient-border rounded-2xl p-6 flex items-center gap-4 hover:bg-white/[0.04] transition-colors"
           >
             <div className="grid place-items-center size-10 rounded-lg bg-white/[0.04] gradient-border shrink-0">
@@ -69,7 +69,7 @@ export function Contact() {
             </div>
             <div className="flex-1">
               <div className="text-xs text-muted-foreground">LinkedIn</div>
-              <div className="text-sm font-medium">/in/yourhandle</div>
+              <div className="text-sm font-medium">A.</div>
             </div>
             <ArrowUpRight className="size-4 opacity-60 group-hover:opacity-100 transition shrink-0" />
           </a>
