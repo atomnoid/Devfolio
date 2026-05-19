@@ -23,6 +23,16 @@ const projects = [
     accent: "from-[oklch(0.7_0.18_200)] to-[oklch(0.75_0.18_320)]",
   },
   {
+    name: "Solar System Simulation",
+    tag: "WebGL · Three.js",
+    description:
+      "An interactive solar system simulation built with Three.js, showcasing orbital motion and realistic lighting.",
+    stack: ["React", "TypeScript", "Three.js", "WebGL", "Animation"],
+    live: "https://atomnoid.github.io/solar-system-simulation/",
+    repo: "https://github.com/atomnoid/solar-system-simulation",
+    accent: "from-[oklch(0.75_0.18_320)] to-[oklch(0.65_0.22_270)]",
+  },
+  {
     name: "Insights View",
     tag: "Analytics · AI",
     description: "AI-powered insights and analytics platform for data-driven decision making.",
