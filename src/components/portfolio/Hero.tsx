@@ -67,8 +67,10 @@ export function Hero() {
             <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
           <a
-            href="/resume.pdf"
+            href="https://docs.google.com/document/d/1m9Bk7aUwB1XD4kvG6ONroCFWXTOEasMPd2ne6UJrl7I/edit?usp=sharing"
             className="group inline-flex items-center gap-2 rounded-xl glass gradient-border px-5 py-3 text-sm font-medium hover:bg-white/[0.06] transition-colors"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <Download className="size-4" /> Resume
           </a>
